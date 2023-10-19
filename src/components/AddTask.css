@@ -1,0 +1,60 @@
+button,
+input {
+  background: none;
+  color: black;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: fit-content;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.form:hover {
+  background-color: rgb(237, 237, 237);
+  transition: 0.2s;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode-text {
+  color: grey;
+}
+
+.hover-color:hover {
+  background-color: rgb(23, 23, 23);
+}
+
+.form-control-plaintext {
+  padding-right: 17rem;
+}
+
+.btn {
+  margin-right: 1rem;
+  color: grey;
+  font-weight: 700;
+}
+
+.logo {
+  color: grey;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.form-control-plaintext:hover {
+  cursor: text;
+}

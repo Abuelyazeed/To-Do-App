@@ -1,0 +1,31 @@
+.task-list {
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+}
+
+.dark-mode {
+  background-color: rgb(33, 33, 33);
+}
+
+.left-tasks {
+  margin: 0;
+  padding: 0.5rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.3rem;
+}
+
+.clear-tasks {
+  padding: 0.5rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.3rem;
+  color: grey;
+}
+
+.top-section {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  color: grey;
+}
